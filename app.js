@@ -8,6 +8,8 @@ window.addEventListener("load", () => {
   canvas.width = window.innerWidth;
 
   // canvas.fill = "blue";
+  ctx.font = "30px Verdana";
+  ctx.fillText("You can draw here. Lets draw something amazing", 20, 40);
   ctx.fillStyle = "rgba(255,0,0,0.7)";
   ctx.fillRect(50, 50, 200, 200);
   ctx.lineWidth = 5;
